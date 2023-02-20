@@ -61,7 +61,7 @@
         <div class="col-8">
           <div style="display:flex">
             <input 
-              style="flex-grow: 1" type="text" placeholder="First letters (or leave empty)" 
+              style="flex-grow: 1" type="text" placeholder="Ingrese un nombre" 
               maxlength="6" onkeypress="return /[a-z]/i.test(event.key)" v-model="input"
               :disabled="trainingModel">
             <b-button 
